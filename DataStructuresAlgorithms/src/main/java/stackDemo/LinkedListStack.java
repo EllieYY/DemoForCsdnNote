@@ -22,4 +22,8 @@ public class LinkedListStack<T> {
     public T peek() {
         return storage.getFirst();
     }
+
+    public boolean empty() {
+        return storage.isEmpty();
+    }
 }

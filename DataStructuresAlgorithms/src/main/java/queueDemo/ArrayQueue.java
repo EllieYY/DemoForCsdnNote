@@ -1,5 +1,8 @@
 package queueDemo;
 
+import generators.PrimitiveGenerator;
+import stackDemo.ArrayStack;
+
 /**
  * @Description : TODO
  * @Author : Ellie
@@ -40,6 +43,4 @@ public class ArrayQueue<T> {
         head = (head + 1) % size;
         return item;
     }
-
-
 }
